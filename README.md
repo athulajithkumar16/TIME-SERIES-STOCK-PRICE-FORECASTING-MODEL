@@ -1,31 +1,32 @@
-# 📉 Stock Price Change Analysis of American Stocks
+# ⏱️ Time Series Stock Price Forecasting Model
 
-This project focuses on analyzing the price changes of major American stocks to identify patterns, trends, and factors influencing stock performance. It uses Python-based data analysis tools to track price fluctuations and visualize stock behavior over time.
+This project implements a time series forecasting model to predict future stock prices using historical stock data. The model helps investors and analysts gain insights into potential market trends and make informed decisions.
 
-## 🚀 Project Objectives
+## 🎯 Project Goals
 
-- Analyze stock price changes of American companies.
-- Investigate how stock prices fluctuate over a period.
-- Visualize key data points such as price change trends, percentage change, and trading volumes.
-- Implement basic statistical analysis to derive meaningful insights.
+- Build and evaluate time series forecasting models for stock prices.
+- Use historical data to train models and predict future closing prices.
+- Visualize both historical trends and predicted values for comparison.
+- Experiment with statistical and machine learning models (ARIMA, SARIMA, Prophet, etc.).
 
-## 🛠️ Tools & Technologies Used
+## 🧰 Tools & Technologies Used
 
-- **Python** 🐍
-- **Pandas** for data manipulation
-- **NumPy** for numerical operations
+- **Python** (Core language)
+- **Pandas & NumPy** for data manipulation
 - **Matplotlib & Seaborn** for data visualization
-- **YFinance** for stock data extraction
-- **Jupyter Notebook** for analysis and reporting
+- **Statsmodels** for ARIMA/SARIMA
+- **Facebook Prophet** for forecasting
+- **YFinance** or CSV data for stock price input
+- **Jupyter Notebook** for step-by-step analysis
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```bash
-STOCK-PRICE-CHANGE-ANALYSIS-OF-AMERICAN-STOCKS/
+TIME-SERIES-STOCK-PRICE-FORECASTING-MODEL/
 │
-├── data/                   # Contains raw and processed stock data
-├── notebooks/              # Jupyter notebooks for analysis
-├── plots/                  # Visualizations of stock data
-├── src/                    # Python scripts for data processing
+├── data/                   # Contains input datasets (CSV or downloaded)
+├── models/                 # Model scripts and saved model files
+├── notebooks/              # Jupyter notebooks with forecasting workflows
+├── plots/                  # Forecast graphs and visual outputs
 ├── README.md               # Project documentation
-└── requirements.txt        # Python dependencies
+└── requirements.txt        # Python package dependencies
